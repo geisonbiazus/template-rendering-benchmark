@@ -6,7 +6,7 @@ This repository is a benchmark of some template engines. To run each test enter 
 
 ## Result
 
-Each test generates an HTML containing an `<ul>` with 10,000 `<li`>.
+Each test generates an HTML containing an `<ul>` with 10,000 `<li>` tags.
 
 | Engine | Language | Time(ms) |
 |--|--|--|

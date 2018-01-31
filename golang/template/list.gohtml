@@ -1,0 +1,7 @@
+{{define "list"}}
+  <ul>
+    {{range $index, $element := .}}
+      {{template "list_item" $element}}
+    {{end}}
+  </ul>
+{{end}}
